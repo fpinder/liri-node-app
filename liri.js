@@ -130,6 +130,73 @@ function concertThis(input) {
 }
 
 
+function spotifySong(input) {
+
+    if (!input) {
+        // And do a little for-loop magic to handle the inclusion of "+"s
+        for (var i = 2; i < nodeArgs.length; i++) {
+
+            if (i > 2 && i < nodeArgs.length) {
+
+                input = input + "+" + nodeArgs[i];
+
+            } else {
+
+                input += nodeArgs[i];
+
+            }
+        }
+
+    }
+
+    // console.log("https://api.spotify.com/v1/search?q=track:" + input + "&type=track&limit=5");
+
+    fs.appendFile("log.txt", nodeArgs + "\n\n", function (err) {
+        // If an error was experienced we will log it.
+        if (err) {
+            console.log(err);
+        }
+
+    });
+
+    if (!input) {
+        input = "The Sign";
+    };
+    songRequested = input;
+    spotify.search({
+        type: "track",
+        query: songRequested
+    }).then(function (response) {
+        var responseData = response.tracks.items;
+        for (var i = 0; i < 5; i++) {
+            if (responseData[i] != undefined) {
+                var spotifyResults =
+                    "\n" + "-------------------spotify-this-song:----------------------------------" +
+                    "\nArtist: " + responseData[i].artists[0].name +
+                    "\nSong: " + responseData[i].name +
+                    "\nPreview URL: " + responseData[i].preview_url +
+                    "\nAlbum: " + responseData[i].album.name + "\n"
+
+                console.log(spotifyResults);
+                // Next, we append the text into the "log.txt" file.
+                // If the file didn't exist, then it gets created on the fly.
+                fs.appendFile("log.txt", spotifyResults + "\n", function (err) {
+                    // If an error was experienced we will log it.
+                    if (err) {
+                        console.log(err);
+                    }
+
+                });
+
+            };
+        };
+    }).catch(function (error) {
+        if (error) {
+            errors(error);
+        }
+
+    });
+};
 
 
 function movieThis(input) {
