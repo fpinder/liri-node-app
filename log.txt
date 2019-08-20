@@ -1,0 +1,179 @@
+C:\Program Files\nodejs\node.exe,C:\Users\fpinder\BootCamp\liri-node-app\liri.js,concert-this,Guns,N,Roses
+
+
+-------------------Concert-This:----------------------------------
+Name of the venue: Spectrum Center
+Venue Location: Charlotte
+Date of the Event: 09/25/2019
+
+
+-------------------Concert-This:----------------------------------
+Name of the venue: Austin City Limits
+Venue Location: Austin
+Date of the Event: 10/04/2019
+
+
+-------------------Concert-This:----------------------------------
+Name of the venue: Kentucky Exposition Center
+Venue Location: Louisville
+Date of the Event: 09/28/2019
+
+
+-------------------Concert-This:----------------------------------
+Name of the venue: VyStar Veterans Memorial Arena
+Venue Location: Jacksonville
+Date of the Event: 10/01/2019
+
+
+-------------------Concert-This:----------------------------------
+Name of the venue: Exit 111 Festival
+Venue Location: Tennessee
+Date of the Event: 10/13/2019
+
+
+-------------------Concert-This:----------------------------------
+Name of the venue: Austin City Limits
+Venue Location: Austin
+Date of the Event: 10/11/2019
+
+
+-------------------Concert-This:----------------------------------
+Name of the venue: Intrust Bank Arena
+Venue Location: Wichita
+Date of the Event: 10/07/2019
+
+
+-------------------Concert-This:----------------------------------
+Name of the venue: Pinnacle Bank Arena
+Venue Location: Lincoln
+Date of the Event: 10/15/2019
+
+
+-------------------Concert-This:----------------------------------
+Name of the venue: Not In This Lifetime Tour
+Venue Location: Tijuana
+Date of the Event: 10/20/2019
+
+
+-------------------Concert-This:----------------------------------
+Name of the venue: Chesapeake Energy Arena
+Venue Location: Oklahoma City
+Date of the Event: 10/23/2019
+
+
+-------------------Concert-This:----------------------------------
+Name of the venue: Vivint Smart Home Arena
+Venue Location: Salt Lake City
+Date of the Event: 10/29/2019
+
+
+-------------------Concert-This:----------------------------------
+Name of the venue: THE COLOSSEUM AT CAESARS PALACE
+Venue Location: Las Vegas
+Date of the Event: 11/01/2019
+
+
+-------------------Concert-This:----------------------------------
+Name of the venue: City Park
+Venue Location: New Orleans
+Date of the Event: 10/25/2019
+
+
+-------------------Concert-This:----------------------------------
+Name of the venue: Jalisco Stadium
+Venue Location: Guadalajara
+Date of the Event: 10/18/2019
+
+
+-------------------Concert-This:----------------------------------
+Name of the venue: THE COLOSSEUM AT CAESARS PALACE
+Venue Location: Las Vegas
+Date of the Event: 11/02/2019
+
+C:\Program Files\nodejs\node.exe,C:\Users\fpinder\BootCamp\liri-node-app\liri.js,spotify-this-song,Wannabe
+
+
+-------------------spotify-this-song:----------------------------------
+Artist: Spice Girls
+Song: Wannabe
+Preview URL: null
+Album: Spice
+
+
+-------------------spotify-this-song:----------------------------------
+Artist: Dylan Schneider
+Song: Wannabe
+Preview URL: https://p.scdn.co/mp3-preview/4045c4a3b11e5cd6ad162a9f70c54674b6b044f8?cid=ade541e832c14240a7cb18d5a3fb2a00
+Album: Wannabe - EP
+
+
+-------------------spotify-this-song:----------------------------------
+Artist: Logic
+Song: Wannabe
+Preview URL: null
+Album: Confessions of a Dangerous Mind
+
+
+-------------------spotify-this-song:----------------------------------
+Artist: why mona
+Song: Wannabe
+Preview URL: https://p.scdn.co/mp3-preview/24081e5a214c7cc00e67eb0d66b97ccfc43a1638?cid=ade541e832c14240a7cb18d5a3fb2a00
+Album: Wannabe
+
+
+-------------------spotify-this-song:----------------------------------
+Artist: Dylan Schneider
+Song: Two Black X's
+Preview URL: https://p.scdn.co/mp3-preview/76281ee7c8c5efd946aa358c3e217a85ab5aedb6?cid=ade541e832c14240a7cb18d5a3fb2a00
+Album: Wannabe - EP
+
+C:\Program Files\nodejs\node.exe,C:\Users\fpinder\BootCamp\liri-node-app\liri.js,movie-this,The,Matrix
+
+
+-------------------movieThis:----------------------------------
+Title of the movie: The Matrix
+Year the movie came out: 1999
+IMDB Rating of the movie: 8.7
+Rotten Tomatoes Rating of the movie: 88%
+Country where the movie was produced: USA
+Language of the movie: English
+Plot of the movie: A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.
+Actors in the movie: Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving
+
+C:\Program Files\nodejs\node.exe,C:\Users\fpinder\BootCamp\liri-node-app\liri.js,do-what-it-says
+
+
+-------------------spotify-this-song:----------------------------------
+Artist: Backstreet Boys
+Song: I Want It That Way
+Preview URL: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=ade541e832c14240a7cb18d5a3fb2a00
+Album: The Hits--Chapter One
+
+
+-------------------spotify-this-song:----------------------------------
+Artist: Anthem Lights
+Song: I Want It That Way
+Preview URL: https://p.scdn.co/mp3-preview/4a163fbfa2dbbe4433f277e0e7395dca656364f5?cid=ade541e832c14240a7cb18d5a3fb2a00
+Album: Covers Part IV
+
+
+-------------------spotify-this-song:----------------------------------
+Artist: Backstreet Boys
+Song: I Want It That Way - Reimagined
+Preview URL: https://p.scdn.co/mp3-preview/7f612d6ba66571500e981e74bb36e14b9906be77?cid=ade541e832c14240a7cb18d5a3fb2a00
+Album: I Want It That Way (Reimagined)
+
+
+-------------------spotify-this-song:----------------------------------
+Artist: Backstreet Boys
+Song: I Want It That Way
+Preview URL: https://p.scdn.co/mp3-preview/b8c2410a5acb68b462be6ac85f1312430e2b149c?cid=ade541e832c14240a7cb18d5a3fb2a00
+Album: Millennium
+
+
+-------------------spotify-this-song:----------------------------------
+Artist: Mick Jensen
+Song: I Want It That Way
+Preview URL: https://p.scdn.co/mp3-preview/f8181f66713983fab073e133e23c741acbe00d75?cid=ade541e832c14240a7cb18d5a3fb2a00
+Album: I Want It That Way
+

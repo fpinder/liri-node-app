@@ -33,7 +33,7 @@ This app uses JavaScript, Node.js and 4 NPM packages: Request, Dotenv, Twitter, 
 
 **_Code excerpts_**
 
-I used a switch with "cases" to create the four separate functions:
+I used a switch with "cases" to create four separate functions:
 
 ```switch (argument) {
     case "concert-this":
