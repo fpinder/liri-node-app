@@ -2,7 +2,7 @@
 node_modules
 .DS_Store
 .env
-.input
+input.input
 npm installed.txt
 
 # Dependency directories

@@ -133,7 +133,7 @@ function concertThis(input) {
 function spotifySong(input) {
 
     if (!input) {
-        // And do a little for-loop magic to handle the inclusion of "+"s
+        // little for-loop magic to handle the inclusion of "+"s
         for (var i = 2; i < nodeArgs.length; i++) {
 
             if (i > 2 && i < nodeArgs.length) {
