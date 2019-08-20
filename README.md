@@ -4,25 +4,30 @@
 
 **Object**
 
-The assignment doesn't have an HTML page, so I've used screen captures below to explain how it works. Liri has 4 commands:
+This App doesn't have an HTML page. Therefore, I used screen captures to explain how it works.  LIRI is a Language Interpretation and Recognition Interface. LIRI will beis a command line node app that takes in parameters and gives you back data. Liri take in one of the following commands:
 
-1. concert-This -
+**1.concert-This -**  *The commamd `node liri.js concert-this <artist/band name here>`  will search the Bands in Town Artist Events API for an artist and render the following information about each event to the terminal: Name of the venue, Venue location, and Date of the Event (use moment to format this as "MM/DD/YYYY")*
+
+`node liri.js concert-this <artist/band name here>`
+
+https://github.com/fpinder/liri-node-app/blob/master/images/concert-This.JPG
+
 1. spotify-this-song uses the Spotify NPM to create a function -- spotifyThisSong -- to pull specific information from the returned object based on the song the user asks for.
 1. movie-this uses the Request NPM to pull specific data from the OMDB database for the user-specified movie.
 1. The do-what-it-says command uses fs.write to write to the random.txt file in my directory.
 
-1. Clearly state the problem the app is trying to solve (i.e. what is it doing and why)
-1. Give a high-level overview of how the app is organized
-1. Give start-to-finish instructions on how to run the app
-1. Include screenshots, gifs or videos of the app functioning
-1. Contain a link to a deployed version of the app
-1. Clearly list the technologies used in the app
-1. State your role in the app development
+A. Clearly state the problem the app is trying to solve (i.e. what is it doing and why)
+B. Give a high-level overview of how the app is organized
+C. Give start-to-finish instructions on how to run the app
+D. Include screenshots, gifs or videos of the app functioning
+F. Contain a link to a deployed version of the app
+G. Clearly list the technologies used in the app
+H. State your role in the app development
 
 **_Technology used_**
 This app uses JavaScript, Node.js and 4 NPM packages: Request, Dotenv, Twitter, and Node-Spotify-API
 
-| Files Used   | Their Role in the App                                                                  |
+| Files Used   |  Role in the App                                                                  |
 | ------------ | -------------------------------------------------------------------------------------- |
 | node_modules | node modules includes the 4 NPM packages                                               |
 | .env         | an invisible file that stores my Twitter and Spotify keys                              |
