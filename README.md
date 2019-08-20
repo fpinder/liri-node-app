@@ -9,8 +9,8 @@ This App doesn't have an HTML page. Therefore, I used screen captures to explain
 **1.concert-This -**  *The commamd `node liri.js concert-this <artist/band name here>`  will search the Bands in Town Artist Events API for an artist and render the following information about each event to the terminal: Name of the venue, Venue location, and Date of the Event (use moment to format this as "MM/DD/YYYY")*
 
 `node liri.js concert-this <artist/band name here>`
+ <a href="https://github.com/fpinder/liri-node-app/blob/master/images/concert-This.JPG" alt="concert-this"></a>
 
-https://github.com/fpinder/liri-node-app/blob/master/images/concert-This.JPG
 
 1. spotify-this-song uses the Spotify NPM to create a function -- spotifyThisSong -- to pull specific information from the returned object based on the song the user asks for.
 1. movie-this uses the Request NPM to pull specific data from the OMDB database for the user-specified movie.
