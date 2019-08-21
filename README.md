@@ -10,16 +10,14 @@ This App doesn't have an HTML page. Therefore, I used screen captures to explain
 
 `node liri.js concert-this <artist/band name here>`
 
- <a href="https://github.com/fpinder/liri-node-app/blob/master/images/concert-This.JPG" alt="concert-this"></a>
- 
- <a href="https://fpinder.github.io/TrainScheduler/"><img src="https://github.com/fpinder/liri-node-app/blob/master/images/concert-This.JPG" alt="concert-this"></a>
+ <a href="#"><img src="https://github.com/fpinder/liri-node-app/blob/master/images/concert-This.JPG" alt="concert-this"></a>
 
 
 **spotify-this-song -** *The command `node liri.js spotify-this-song '<song name here>'` will utilize the node-spotify-api package in order to retrieve followint song information from the Spotify API: Artist(s), The song's name, A preview link of the song from Spotify, and The album that the song is from. However, if no song is provided then your program will default to "The Sign" by Ace of Base*
 
 `node liri.js spotify-this-song '<song name here>'`
 
-<a href="https://github.com/fpinder/liri-node-app/blob/master/images/spotify-this-song.JPG" alt="spotify-this-song"></a>
+ <a href="#"><img src="https://github.com/fpinder/liri-node-app/blob/master/images/spotify-this-song.JPG" alt="spotify-this-song></a>
 
 **movie-this -** *The commamd `node liri.js movie-this '<movie name here>'` Request NPM to pull specific data from the OMDB database for the user-specified movie. Additionaly,  will output the following information to the terminal/bash window:*
    * Title of the movie.
@@ -33,15 +31,14 @@ This App doesn't have an HTML page. Therefore, I used screen captures to explain
 
    `node liri.js movie-this '<movie name here>'`
 
-   <a href="https://github.com/fpinder/liri-node-app/blob/master/images/movie-this.JPG" alt="movie-this"></a>
+    <a href="#"><img src="https://github.com/fpinder/liri-node-app/blob/master/images/movie-this.JPG" alt="movie-thi"></a>
 
 
 **The do-what-it-says** *The command `node liri.js do-what-it-says` use the fs Node package, LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands. It should run spotify-this-song for "I Want it That Way," ; movie-this for "Ready or Not", and  concert-this for "Guns and Roses"*
 
 `node liri.js do-what-it-says`
 
- <a href="https://github.com/fpinder/liri-node-app/blob/master/images/do-what-it-says.JPG" alt="do-what-it-says"></a>
-
+<a href="#"><img src="https://github.com/fpinder/liri-node-app/blob/master/images/do-what-it-says.JPG" alt="do-what-it-says"></a>
 
 **_Technology used_**
 This app uses JavaScript, Node.js and 4 NPM packages: Request, Dotenv, Twitter, and Node-Spotify-API
@@ -85,7 +82,7 @@ This app uses JavaScript, Node.js and 4 NPM packages: Request, Dotenv, Twitter, 
 
 *App also provides a help menu to aid the user in executing each commands*
 
-<a href="https://github.com/fpinder/liri-node-app/blob/master/images/Help.JPG" alt="Help File"></a>
+<a href="#"><img src="https://github.com/fpinder/liri-node-app/blob/master/images/Help.JPG" alt="Help File"></a>
 
 
 
