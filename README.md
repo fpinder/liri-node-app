@@ -17,7 +17,7 @@ This App doesn't have an HTML page. Therefore, I used screen captures to explain
 
 `node liri.js spotify-this-song '<song name here>'`
 
- <a href="#"><img src="https://github.com/fpinder/liri-node-app/blob/master/images/spotify-this-song.JPG" alt="spotify-this-song></a>
+<a href="#"><img src="https://github.com/fpinder/liri-node-app/blob/master/images/spotify-this-song.JPG" alt="spotify-this-song"></a>
 
 **movie-this -** *The commamd `node liri.js movie-this '<movie name here>'` Request NPM to pull specific data from the OMDB database for the user-specified movie. Additionaly,  will output the following information to the terminal/bash window:*
    * Title of the movie.
@@ -31,7 +31,9 @@ This App doesn't have an HTML page. Therefore, I used screen captures to explain
 
    `node liri.js movie-this '<movie name here>'`
 
-    <a href="#"><img src="https://github.com/fpinder/liri-node-app/blob/master/images/movie-this.JPG" alt="movie-thi"></a>
+    <a href="#"><img src="https://github.com/fpinder/liri-node-app/blob/master/images/movie-this.JPG" alt="movie-this"></a>
+    
+    
 
 
 **The do-what-it-says** *The command `node liri.js do-what-it-says` use the fs Node package, LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands. It should run spotify-this-song for "I Want it That Way," ; movie-this for "Ready or Not", and  concert-this for "Guns and Roses"*
