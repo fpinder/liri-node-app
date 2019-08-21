@@ -12,7 +12,7 @@ This App doesn't have an HTML page. Therefore, I used screen captures to explain
 
  <a href="https://github.com/fpinder/liri-node-app/blob/master/images/concert-This.JPG" alt="concert-this"></a>
  
- <a href="https://fpinder.github.io/TrainScheduler/"><img src="https://github.com/fpinder/TrainScheduler/blob/master/assests/images/schedule.jpg" alt="Train Scheduler"></a>
+ <a href="https://fpinder.github.io/TrainScheduler/"><img src="https://github.com/fpinder/liri-node-app/blob/master/images/concert-This.JPG" alt="concert-this"></a>
 
 
 **spotify-this-song -** *The command `node liri.js spotify-this-song '<song name here>'` will utilize the node-spotify-api package in order to retrieve followint song information from the Spotify API: Artist(s), The song's name, A preview link of the song from Spotify, and The album that the song is from. However, if no song is provided then your program will default to "The Sign" by Ace of Base*
