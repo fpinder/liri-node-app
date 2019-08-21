@@ -54,7 +54,7 @@ switch (argument) {
     case "do-what-it-says":
         doThis(input);
         break;
-    // instructions firt time used
+        // instructions firt time used
     default:
         console.log("\n" + "Type a Command After 'node liri.js': " + "\n" +
             "concert-this: " + "Example - node liri.js concert-this 'band name here'" + "\n" +
@@ -80,35 +80,9 @@ function concertThis(input) {
     } else {
 
         axios.get("https://rest.bandsintown.com/artists/" + input + "/events?app_id=codingbootcamp").then(
-            function (response) {
+                function (response) {
 
-                fs.appendFile("log.txt", nodeArgs + "\n\n", function (err) {
-                    // If an error was experienced we will log it.
-                    if (err) {
-                        console.log(err);
-                    }
-
-                });
-
-                for (var i = 0; i < response.data.length; i++) {
-
-                    var datetime = response.data[i].datetime; //datetime response 
-                    var dateArr = datetime.split('T'); //split the date and time in the response
-
-                    // console.log("Name of the venue: " + response.data[i].venue.name);
-                    // console.log("Venue Location: " + response.data[i].venue.city);
-                    // console.log("Date of the Event: " + moment(dateArr[0]).format("MM/DD/YYYY"))
-
-                    var concertInfo =
-                        "\n" + "-------------------Concert-This:----------------------------------" +
-                        "\nName of the venue: " + response.data[i].venue.name +
-                        "\nVenue Location: " + response.data[i].venue.city +
-                        "\nDate of the Event: " + moment(dateArr[0]).format("MM/DD/YYYY") + "\n"
-
-                    console.log(concertInfo);
-                    // Next, we append the text into the "log.txt" file.
-                    // If the file didn't exist, then it gets created on the fly.
-                    fs.appendFile("log.txt", concertInfo + "\n", function (err) {
+                    fs.appendFile("log.txt", nodeArgs + "\n\n", function (err) {
                         // If an error was experienced we will log it.
                         if (err) {
                             console.log(err);
@@ -116,9 +90,35 @@ function concertThis(input) {
 
                     });
 
+                    for (var i = 0; i < response.data.length; i++) {
 
-                }
-            })
+                        var datetime = response.data[i].datetime; //datetime response 
+                        var dateArr = datetime.split('T'); //split the date and time in the response
+
+                        // console.log("Name of the venue: " + response.data[i].venue.name);
+                        // console.log("Venue Location: " + response.data[i].venue.city);
+                        // console.log("Date of the Event: " + moment(dateArr[0]).format("MM/DD/YYYY"))
+
+                        var concertInfo =
+                            "\n" + "-------------------Concert-This:----------------------------------" +
+                            "\nName of the venue: " + response.data[i].venue.name +
+                            "\nVenue Location: " + response.data[i].venue.city +
+                            "\nDate of the Event: " + moment(dateArr[0]).format("MM/DD/YYYY") + "\n"
+
+                        console.log(concertInfo);
+                        // Next, we append the text into the "log.txt" file.
+                        // If the file didn't exist, then it gets created on the fly.
+                        fs.appendFile("log.txt", concertInfo + "\n", function (err) {
+                            // If an error was experienced we will log it.
+                            if (err) {
+                                console.log(err);
+                            }
+
+                        });
+
+
+                    }
+                })
             .catch(function (error) {
                 if (error) {
                     errors(error);
@@ -226,38 +226,38 @@ function movieThis(input) {
     //console.log("http://www.omdbapi.com/?t=" + input + "&y=&plot=short&apikey=trilogy");
 
     axios.get("http://www.omdbapi.com/?t=" + input + "&y=&plot=short&apikey=trilogy").then(
-        function (response) {
+            function (response) {
 
-            fs.appendFile("log.txt", nodeArgs + "\n\n", function (err) {
-                // If an error was experienced we will log it.
-                if (err) {
-                    console.log(err);
-                }
+                fs.appendFile("log.txt", nodeArgs + "\n\n", function (err) {
+                    // If an error was experienced we will log it.
+                    if (err) {
+                        console.log(err);
+                    }
 
-            });
+                });
 
-            var movieResult =
-                "\n" + "-------------------movieThis:----------------------------------" +
-                "\nTitle of the movie: " + response.data.Title +
-                "\nYear the movie came out: " + response.data.Year +
-                "\nIMDB Rating of the movie: " + response.data.imdbRating +
-                "\nRotten Tomatoes Rating of the movie: " + response.data.Ratings[1].Value +
-                "\nCountry where the movie was produced: " + response.data.Country +
-                "\nLanguage of the movie: " + response.data.Language +
-                "\nPlot of the movie: " + response.data.Plot +
-                "\nActors in the movie: " + response.data.Actors + "\n"
+                var movieResult =
+                    "\n" + "-------------------movieThis:----------------------------------" +
+                    "\nTitle of the movie: " + response.data.Title +
+                    "\nYear the movie came out: " + response.data.Year +
+                    "\nIMDB Rating of the movie: " + response.data.imdbRating +
+                    "\nRotten Tomatoes Rating of the movie: " + response.data.Ratings[1].Value +
+                    "\nCountry where the movie was produced: " + response.data.Country +
+                    "\nLanguage of the movie: " + response.data.Language +
+                    "\nPlot of the movie: " + response.data.Plot +
+                    "\nActors in the movie: " + response.data.Actors + "\n"
 
-            console.log(movieResult);
-            // Next, we append the text into the "log.txt" file.
-            // If the file didn't exist, then it gets created on the fly.
-            fs.appendFile("log.txt", movieResult + "\n", function (err) {
-                // If an error was experienced we will log it.
-                if (err) {
-                    console.log(err);
-                }
+                console.log(movieResult);
+                // Next, we append the text into the "log.txt" file.
+                // If the file didn't exist, then it gets created on the fly.
+                fs.appendFile("log.txt", movieResult + "\n", function (err) {
+                    // If an error was experienced we will log it.
+                    if (err) {
+                        console.log(err);
+                    }
 
-            });
-        })
+                });
+            })
         .catch(function (error) {
             if (error) {
                 errors(error);
@@ -270,19 +270,20 @@ function movieThis(input) {
 }
 
 function doThis() {
+
     fs.readFile("random.txt", "utf8", function (error, data) {
 
         // If the code experiences any errors it will log the error to the console.
         if (error) {
             return console.log(error);
         }
-
         // We will then print the contents of data
         console.log(data);
 
         // Then split it by commas (to make it more readable)
         var dataArr = data.split(",");
         spotifySong(dataArr[1]);
+
 
     });
 
@@ -312,23 +313,3 @@ function errors(error) {
 
 
 }
-
-fs.readFile("random.txt", "utf8", function (error, data) {
-
-    // If the code experiences any errors it will log the error to the console.
-    if (error) {
-        return console.log(error);
-    }
-
-    if (data == "Ready or Not") {
-
-        movieThis(data)
-        console.log(data);
-    } else if (data == "Guns and Roses") {
-        concertThis(data);
-        console.log(data);
-
-    }
-
-
-});

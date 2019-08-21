@@ -177,3 +177,52 @@ Song: I Want It That Way
 Preview URL: https://p.scdn.co/mp3-preview/f8181f66713983fab073e133e23c741acbe00d75?cid=ade541e832c14240a7cb18d5a3fb2a00
 Album: I Want It That Way
 
+C:\Program Files\nodejs\node.exe,C:\Users\fpinder\BootCamp\liri-node-app\liri.js,spotify-this-song,purple,rain
+
+
+-------------------spotify-this-song:----------------------------------
+Artist: Prince
+Song: Purple Rain
+Preview URL: https://p.scdn.co/mp3-preview/2fe008411edea4f21355301daa8993663eaf46f8?cid=ade541e832c14240a7cb18d5a3fb2a00
+Album: Purple Rain
+
+
+-------------------spotify-this-song:----------------------------------
+Artist: Prince
+Song: When Doves Cry
+Preview URL: https://p.scdn.co/mp3-preview/5fc1bc59898ea8d0d23cf88810828d014020ef5d?cid=ade541e832c14240a7cb18d5a3fb2a00
+Album: Purple Rain
+
+
+-------------------spotify-this-song:----------------------------------
+Artist: Prince
+Song: Let's Go Crazy
+Preview URL: https://p.scdn.co/mp3-preview/85dd430202f409d4e960e9169cfdddd38fe46ade?cid=ade541e832c14240a7cb18d5a3fb2a00
+Album: Purple Rain
+
+
+-------------------spotify-this-song:----------------------------------
+Artist: Prince
+Song: I Would Die 4 U - 7" Single Edit; 2017 Remaster
+Preview URL: https://p.scdn.co/mp3-preview/69800c02456490eeafc99a80f9cfa5928b33060d?cid=ade541e832c14240a7cb18d5a3fb2a00
+Album: Purple Rain (Deluxe Expanded Edition)
+
+
+-------------------spotify-this-song:----------------------------------
+Artist: Prince
+Song: I Would Die 4 U
+Preview URL: https://p.scdn.co/mp3-preview/395d416c1d2bc452c4326513cc2ca46f572cb836?cid=ade541e832c14240a7cb18d5a3fb2a00
+Album: Purple Rain
+
+C:\Program Files\nodejs\node.exe,C:\Users\fpinder\BootCamp\liri-node-app\liri.js,movie-this,The,matrix
+
+
+-------------------movieThis:----------------------------------
+Title of the movie: The Matrix
+Year the movie came out: 1999
+IMDB Rating of the movie: 8.7
+Rotten Tomatoes Rating of the movie: 88%
+Country where the movie was produced: USA
+Language of the movie: English
+Plot of the movie: A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.
+Actors in the movie: Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving
