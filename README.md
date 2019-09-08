@@ -40,7 +40,7 @@ This App doesn't have an HTML page. Therefore, I used screen captures to explain
 <a href="#"><img src="https://github.com/fpinder/liri-node-app/blob/master/images/do-what-it-says.JPG" alt="do-what-it-says"></a>
 
 **_Technology used_**
-This app uses JavaScript, Node.js and 4 NPM packages: Request, Dotenv, Twitter, and Node-Spotify-API
+This app uses JavaScript, Node.js and 4 NPM packages: Request, Dotenv, and Node-Spotify-API
 
 | Files Used   |  Role in the App                                                                  |
 | ------------ | -------------------------------------------------------------------------------------- |
